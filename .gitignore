@@ -159,5 +159,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Add csv files to gitignore
+# Add csv files 
 /datasets/*.csv
+
+# Add env variables 
+.env

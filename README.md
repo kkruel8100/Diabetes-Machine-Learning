@@ -13,6 +13,7 @@
             └───codebook15_llcp.pdf
         └───utils
             └───pipeline.py
+        │   .env
         │   .gitignore
         │   main.ipynb
         └───README.md
