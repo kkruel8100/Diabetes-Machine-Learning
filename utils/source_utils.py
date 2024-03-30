@@ -46,7 +46,7 @@ columns_to_drop = [
 
 
 def get_sample_dataframe(dfs: List[pd.DataFrame]) -> pd.DataFrame:
-    """90
+    """
     Function called to get a sample dataframe from a list of dataframes.
     Args:
         List[dataframes]: A list of pandas dataframes.

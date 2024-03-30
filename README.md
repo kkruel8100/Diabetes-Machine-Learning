@@ -1,5 +1,15 @@
 ## Diabetes-Machine-Learning
 
+To Do
+
+1. Add additional libraries
+2. Verify structure
+3. Add steps
+
+#### Programs/Libraries
+
+Python, Pandas
+
 #### Program Structure
 
     └───root
@@ -9,11 +19,13 @@
             └───sample_dataset.csv
         └───utils
             │   pipeline.py
+            │   sample_cleaning_utils.py
             └───source_utils.py
         │   .env
         │   .gitignore
         │   main.ipynb
         │   README.md
+        │   sample.ipynb
         └───source.ipynb
 
 #### Program Details
@@ -30,7 +42,25 @@ Step 1:
 
 Clone the repository.
 
+If you are recreating source step, then you must have .env file with AWS links.
+If not skip to Step 3.
+
 Step 2:
+
+Run source.ipynb
+Result: datasets/sample_dataset.csv created
+
+If you are recreating clean data set, then continue to Step 3.
+If not skip to Step 4.
+
+Step 3:
+
+Run sample.ipynb
+Result: datasets/cleaned_data.csv created
+
+Step 4:
+
+Run modeling.ipynb
 
 #### Resources
 
