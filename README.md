@@ -1,5 +1,9 @@
 ## Diabetes-Machine-Learning
 
+#### Question
+
+Can survey results predict whether a person has diabetes?
+
 To Do
 
 1. Add additional libraries
@@ -8,7 +12,9 @@ To Do
 
 #### Programs/Libraries
 
-Python, Pandas
+Python, Pandas, MatPlotLib
+
+#### Installs
 
 #### Program Structure
 
@@ -72,6 +78,16 @@ https://www.kaggle.com/datasets/cdc/behavioral-risk-factor-surveillance-system
 
 Acknowledgements:
 This dataset was released by the CDC (Centers for Disease Control and Prevention)
+
+License:
+[CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Diabetes Health Indicators Dataset
+https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+
+Acknowledgements:
+See the above Behavioral Risk Factor Surveillance System
+Public health surveys of people from 2015
 
 License:
 [CCO: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
