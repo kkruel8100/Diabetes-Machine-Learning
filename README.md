@@ -60,6 +60,14 @@ _Note:_ Main notebook has two panels that are commented out. Neither panel needs
 
 - Due to findings from the cleaned_dataset, all pipelines - modelings and plotting used the datasets/diabetes_binary_health_indicators_BRFSS2015
 
+#### Methodology
+
+Original approach: Combine and clean source data from CDC for years 2011-2015 and concatenate on shared features. After reviewing results, determination made that survey information was inconsistent across 5 years to achieve meaningful results.
+
+_Note:_ modeling.ipynb file was used to review correlations and columns from the cleaned_dataset (all 5 years) and the 2015 dataset.
+
+Modified approach: Use data sourced from the CDC for year 2015.
+
 #### Resources
 
 ##### Datasets
