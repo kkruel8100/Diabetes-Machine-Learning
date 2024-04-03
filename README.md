@@ -48,25 +48,17 @@ Step 1:
 
 Clone the repository.
 
-If you are recreating source step, then you must have .env file with AWS links.
-If not skip to Step 3.
-
 Step 2:
 
-Run source.ipynb
-Result: datasets/sample_dataset.csv created
+Run main.ipynb
 
-If you are recreating clean data set, then continue to Step 3.
-If not skip to Step 4.
+_Note:_ Main notebook has two panels that are commented out. Neither panel needs to be ran to run the notebook. The output is part of the repo.
 
-Step 3:
+- To run panel for source, you must have a .env file with links to AWS resources. The output for source is available in datasets/sample_dataset.csv. Comment in the %run ... line.
 
-Run sample.ipynb
-Result: datasets/cleaned_data.csv created
+- To run panel for sample, comment in the %run ... line. The output for sample is available in datasets/cleaned_dataset.
 
-Step 4:
-
-Run modeling.ipynb
+- Due to findings from the cleaned_dataset, all pipelines - modelings and plotting used the datasets/diabetes_binary_health_indicators_BRFSS2015
 
 #### Resources
 
