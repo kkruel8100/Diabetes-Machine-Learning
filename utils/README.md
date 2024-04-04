@@ -4,24 +4,22 @@
 
 Can survey results predict whether a person has diabetes?
 
-To Do
+#### Synopsis
 
-1. Add additional libraries
-2. Verify structure
-3. Add steps
-
-#### Programs/Libraries
-
-Python, Pandas, MatPlotLib
 
 #### Installs
+list of required libraries located here: (utils/package-list.txt)
 
 #### Program Structure
 
     └───root
         └───datasets
             │   2015_formats.json
+            |   cleaned_dataset.csv
             │   codebook15_llcp.pdf
+            |   diabetes_012_health_indicators_BRFSS2015.csv
+            |   diabetes_binary_5050split_health_indicators_BRFSS2015.csv
+            |   diabetes_binary_health_indicators_BRFSS2015.csv
             └───sample_dataset.csv
         └───utils
             │   pipeline.py
@@ -30,6 +28,9 @@ Python, Pandas, MatPlotLib
         │   .env
         │   .gitignore
         │   main.ipynb
+        |   modeling.ipynb
+        |   pipeline.ipynb
+        |   plotting.ipynb
         │   README.md
         │   sample.ipynb
         └───source.ipynb
@@ -69,6 +70,7 @@ _Note:_ modeling.ipynb file was used to review correlations and columns from the
 Modified approach: Use data sourced from the CDC for year 2015.
 
 #### Resources
+
 
 ##### Datasets
 
