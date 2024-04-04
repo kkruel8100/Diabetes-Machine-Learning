@@ -15,9 +15,11 @@ from sklearn.ensemble import AdaBoostClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import warnings
-
 warnings.filterwarnings("ignore")
 warnings.simplefilter(action="ignore", category=FutureWarning)
+
+# Establish target names
+target_names = ["negative", "positive"]
 
 # Create hypertuning parameter grids for each model that will be hypertuned
 param_grid_lr = {
@@ -38,9 +40,6 @@ param_grid_xgboost = {
     "min_child_weight": np.arange(1, 5),
     "subsample": np.arange(0.1, 1, 0.1),
 }
-
-target_names = ["negative", "positive"]
-
 
 # Create model function
 def test_model(model, data):
@@ -90,7 +89,7 @@ def run_pipeline(df):
     random_state = 42
 
     test_models = [
-        SVC(C=1.0, random_state=random_state),
+        # SVC(C=1.0, random_state=random_state),
         LinearRegression(),
         KNeighborsClassifier(),
         LogisticRegression(random_state=random_state),
@@ -109,3 +108,4 @@ def run_pipeline(df):
     hypertune_model(LogisticRegression(), data, param_grid_lr)
     hypertune_model(AdaBoostClassifier(), data, param_grid_adaboost)
     hypertune_model(XGBClassifier(), data, param_grid_xgboost)
+
