@@ -6,8 +6,8 @@ Can survey results predict whether a person has diabetes?
 
 #### Synopsis
 
-
 #### Installs
+
 list of required libraries located here: (utils/package-list.txt)
 
 #### Program Structure
@@ -70,7 +70,6 @@ _Note:_ modeling.ipynb file was used to review correlations and columns from the
 Modified approach: Use data sourced from the CDC for year 2015.
 
 #### Resources
-
 
 ##### Datasets
 
