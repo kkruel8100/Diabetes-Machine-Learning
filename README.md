@@ -6,9 +6,11 @@ Can survey results predict whether a person has diabetes?
 
 #### Synopsis
 
+The CDC estimates that 20% of individuals living with diabetes are unaware of their condition. The objective is to determine the effectiveness of various modeling techniques in accurately predicting a binary diagnosis of diabetes, based on a 21-feature dataset representing key health indicators. These indicators include general physical health, financial circumstances, and educational background. A pipeline has been developed to fit (7) models to the data and utilize hyperparameter tuning for the top three performing models based on accuracy. Based upon the scoring of the models, the dataset is confirmed to be well structured, consisting of features with equivalent impact in determining whether a patient has diabetes or not. All models performed with a test accuracy of ~86%. The best performing tuned model was the XGBoost Tree Classifier, with a test set accuracy score of 86.7%. A low recall score of 0.16 communicates that some further hypertuning is necessary on the XGBoost Classifier in order to limit the potential of wrongly diagnosing a patient with diabetes that doesn't have diabetes. An important use of these models would be to deploy within doctor's offices as a way to navigate pertinent questions relating to those risk factors associated with a diabetes diagnosis. An application could also be deployed for common use, in which a user potentially concerned with a risk of diabetes can appropriately evaluate said risk.
+
 #### Installs
 
-list of required libraries located here: (utils/package-list.txt)
+A list of required libraries located here: (utils/package-list.txt)
 
 #### Program Structure
 
