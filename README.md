@@ -1,5 +1,12 @@
 ## Diabetes-Machine-Learning
 
+#### Contributors
+
+- Duran, Chris
+- Kruel, Kimberly
+- McClure, Mistie
+- McDaniel, Geoff
+
 #### Question
 
 Can survey results predict whether a person has diabetes?
